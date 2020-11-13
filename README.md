@@ -36,7 +36,7 @@ This project is a part of a course work at Dalhousie University and it is develo
 - Test code adheres to the same clean code standards as production code.
 
 ### **Continuous Integration and Continuous Deployment Pipeline**
-- During the entire development cycle, gitflow was maintained by creating master, develop and other feature branches. Based on the change in branches, workflow was determined, which can be observed in [.group.yml](https://github.com/karankharecha/GroupFormationTool/blob/master/.group.yml) file.
+- During the entire development cycle, gitflow was maintained by creating master, develop and other feature branches. Based on the change in branches, workflow was determined, which can be observed in [.gitlab-ci.yml](https://github.com/neelkanthjdabhi/GroupFormationTool/blob/master/.gitlab-ci.yml) file.
 - Test cases are executed by the runner when the code is changed in master and develop branch.
 - Environments and databases: Dev, Test and Production.
 
